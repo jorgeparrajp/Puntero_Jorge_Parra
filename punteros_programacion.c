@@ -22,8 +22,22 @@ num =  150 ;
  decimal = *ptrF ;
 
 
- printf ("%.3f %.3f %p", pi , decimal , ptrF);
+ printf ("%.3f %.3f %p\n", pi , decimal , ptrF);
 
+
+ char letra = 'a' , caracter ;
+
+ char *ptrC; //deficion del puntero
+ ptrC = &letra; 
+
+ caracter = *ptrC;
+
+ printf("%c %c %p", letra, caracter, ptrC);
+
+
+
+
+ 
 
 
 
